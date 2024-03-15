@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.quanlysachFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.appcompat.widget.SearchView
+        android:layout_width="match_parent"
+        android:iconifiedByDefault="false"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchSach2"/>
+   <androidx.recyclerview.widget.RecyclerView
+       android:layout_width="match_parent"
+       android:layout_marginTop="50dp"
+       android:layout_height="match_parent"
+       android:id="@+id/recysach"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/addd"
+        android:id="@+id/btthemsach"
+        android:layout_gravity="bottom|end"/>
+
+</FrameLayout>

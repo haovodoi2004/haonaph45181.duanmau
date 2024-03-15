@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#00DF09"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/chandung"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOM ADMINNISTRATOR"
+        android:textSize="20dp"
+        android:id="@+id/welcom"
+        android:textColor="@color/white"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

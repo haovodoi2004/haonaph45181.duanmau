@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:id="@+id/textView28"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm thành viên"
+        android:textSize="30dp"
+        android:background="#FFEB3B"/>
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:text="Mã thành viên" />
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:inputType="text"
+        android:text="nhập mã tv"
+        android:enabled="false"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="71dp" />
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:text="Teen thành viên" />
+
+    <EditText
+        android:id="@+id/editTextText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:inputType="text"
+        android:text=""
+        android:hint=""
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="195dp" />
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:text="Năm sinh" />
+    <EditText
+        android:id="@+id/editTextText6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_marginTop="10dp"
+        android:text="Name"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="314dp" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal">
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:layout_margin="10dp"
+        android:background="@drawable/sqart"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="444dp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:background="@drawable/sqart"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="438dp" />
+</LinearLayout>
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
